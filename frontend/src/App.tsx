@@ -35,9 +35,7 @@ const App = () => (
             <Route path="/community" element={<Community />} />
             <Route path="/categories" element={<BrowseByCategory />} />
             <Route path="/destinations" element={<PopularDestinations />} />
-            <Route path="/payment" element={<Payment />} />
-            {/* ADD ALL CUSTOM ROUTES ABOVE THE CATCH-ALL "*" ROUTE */}
-            <Route path="*" element={<NotFound />} />
+            <Route path="/payment" element={<Payment />} />            <Route path="*" element={<NotFound />} />
           </Routes>
         </BrowserRouter>
       </TooltipProvider>
